@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: 'Code and data splits for "Diagnosing and Correcting the Lift Bias of Neural Surface-Pressure Surrogates on an Unseen Vehicle Body Type"'
+type: software
+version: 1.0.0
+date-released: 2026-11-27
+doi: 10.5281/zenodo.24593213
+url: https://github.com/HAMvoc/surrogate-lift-bias
+repository-code: https://github.com/HAMvoc/surrogate-lift-bias
+license: MIT
+authors:
+  - family-names: Nguyen
+    given-names: Quang Van Huy
+    orcid: https://orcid.org/0009-0007-2566-0389
+    affiliation: "Department of Computer Science, FPT University, Swinburne Vietnam, Ho Chi Minh City, Vietnam"
+  - family-names: Truong
+    given-names: Huyen Ngoc
+    orcid: https://orcid.org/0009-0000-3800-8452
+    affiliation: "School of Science, Engineering and Technology, RMIT University, Ho Chi Minh City, Vietnam"
+  - family-names: Hoang
+    given-names: Minh Anh
+    orcid: https://orcid.org/0000-0002-8918-7566
+    affiliation: "Department of Computer Science, FPT University, Swinburne Vietnam, Ho Chi Minh City, Vietnam"
+  - family-names: Nguyen-Vinh
+    given-names: Khuong
+    orcid: https://orcid.org/0000-0002-1738-5109
+    affiliation: "School of Science, Engineering and Technology, RMIT University, Ho Chi Minh City, Vietnam"

@@ -1,0 +1,12 @@
+# Training defaults (spec 8.1). Tune only on E1 train/val, then lock.
+lr: 3.0e-3            # LOCKED 04/11 after T0 (R1, E1, val): 1e-4 0.2093; 3e-4 0.1848; 1e-3 0.1733; 3e-3 0.1662.
+min_lr: 1.0e-6
+weight_decay: 1.0e-4
+warmup_epochs: 5
+epochs: 150
+batch: 1              # cars per micro-step (4 GB laptop); Kaggle can use 2
+accum: 8              # effective 8 cars per optimizer step
+n_points: 32768
+clip: 1.0
+ema: 0.999
+amp: bf16             # laptop RTX 3050 Ti: bf16; Kaggle T4: fp16

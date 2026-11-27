@@ -1,0 +1,4 @@
+# Kaggle already has torch/numpy/scipy/pandas/pyyaml. Only the packages below are needed if missing (each notebook prints versions at the start).
+pyyaml
+pandas
+scipy

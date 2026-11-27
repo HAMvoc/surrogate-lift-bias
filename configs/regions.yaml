@@ -1,0 +1,24 @@
+# Surface regions for E6 error analysis (spec 10.4; EXPLORATORY per prereg). Rules are ordered; a point takes the first rule it matches.
+# Variables, computed per car from its own pool:
+#   u = (x - xmin)/(xmax - xmin)   along the car, 0 = nose
+#   v = |y| / max|y|               lateral, 0 = symmetry plane
+#   w = (z - zmin)/(zmax - zmin)   height, 0 = ground
+#   disc: {u, zm, r}: points inside a disc centred at (u, zm metres) with radius r metres in the x-z plane
+#   nx, ny, nz = outward normal; any = |ny|
+# Each condition is [min, max] (null = unbounded). All conditions of a rule must hold simultaneously.
+# Checked visually (reports/regions/*.png) on 9 cars: 3 cars per body style of the E1 test. Known limit: the rear window of the Estateback is nearly vertical
+# so most of it falls into rear_face (rear_window only ~1%); 'other' is ~3-6% of area. Exploratory analysis only.
+default: other
+rules:
+  # wheel: disc around the wheel axle in the x-z plane (u = axle position along car length, zm = axle height, r = radius, metres), v filters the part outside the body
+  - {name: wheel,       disc: {u: 0.173, zm: 0.33, r: 0.37}, v: [0.6, null]}   # front wheel
+  - {name: wheel,       disc: {u: 0.800, zm: 0.33, r: 0.37}, v: [0.6, null]}   # rear wheel
+  - {name: underbody,   nz: [null, -0.35], w: [null, 0.5]}
+  - {name: front,       nx: [null, -0.5], u: [null, 0.2], w: [null, 0.6]}
+  - {name: rear_face,   nx: [0.5, null], u: [0.82, null]}
+  - {name: rear_window, nx: [0.3, null], nz: [0.3, null], u: [0.55, null], w: [0.45, null]}
+  - {name: windshield,  nx: [null, -0.3], nz: [0.3, null], u: [0.2, 0.55], w: [0.45, null]}   # windshield and A-pillar
+  - {name: hood,        nz: [0.5, null], u: [null, 0.34], w: [null, 0.7]}
+  - {name: roof,        nz: [0.6, null], u: [0.3, 0.8], w: [0.7, null]}
+  - {name: tail,        u: [0.82, null]}                                        # remaining rear part (trunk lid, tail panel)
+  - {name: side,        any: [0.5, null]}

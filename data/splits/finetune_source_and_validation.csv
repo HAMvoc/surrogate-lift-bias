@@ -1,0 +1,121 @@
+role,id
+fine-tune source cars,N_S_WWS_WM_009
+fine-tune source cars,N_S_WWC_WM_276
+fine-tune source cars,F_S_WWC_WM_251
+fine-tune source cars,N_S_WW_WM_195
+fine-tune source cars,F_S_WWS_WM_221
+fine-tune source cars,F_S_WWC_WM_467
+fine-tune source cars,F_S_WWC_WM_562
+fine-tune source cars,F_S_WWC_WM_095
+fine-tune source cars,N_S_WW_WM_298
+fine-tune source cars,F_S_WWS_WM_506
+fine-tune source cars,F_S_WWC_WM_582
+fine-tune source cars,N_S_WWC_WM_258
+fine-tune source cars,N_S_WWS_WM_372
+fine-tune source cars,F_S_WWS_WM_236
+fine-tune source cars,F_S_WWC_WM_300
+fine-tune source cars,F_S_WWS_WM_214
+fine-tune source cars,N_S_WW_WM_257
+fine-tune source cars,N_S_WW_WM_600
+fine-tune source cars,N_S_WWS_WM_108
+fine-tune source cars,N_S_WW_WM_676
+fine-tune source cars,N_S_WW_WM_628
+fine-tune source cars,N_S_WWC_WM_055
+fine-tune source cars,F_S_WWS_WM_638
+fine-tune source cars,N_S_WWS_WM_378
+fine-tune source cars,F_S_WWC_WM_041
+fine-tune source cars,F_S_WWS_WM_249
+fine-tune source cars,N_S_WWS_WM_359
+fine-tune source cars,F_S_WWS_WM_280
+fine-tune source cars,N_S_WW_WM_035
+fine-tune source cars,F_S_WWC_WM_020
+fine-tune source cars,F_S_WWS_WM_550
+fine-tune source cars,N_S_WWS_WM_053
+fine-tune source cars,N_S_WW_WM_114
+fine-tune source cars,F_S_WWS_WM_039
+fine-tune source cars,F_S_WWS_WM_361
+fine-tune source cars,N_S_WWS_WM_129
+fine-tune source cars,F_S_WWC_WM_660
+fine-tune source cars,N_S_WWS_WM_219
+fine-tune source cars,N_S_WWC_WM_409
+fine-tune source cars,N_S_WWC_WM_270
+fine-tune source cars,N_S_WW_WM_032
+fine-tune source cars,N_S_WW_WM_345
+fine-tune source cars,F_S_WWS_WM_258
+fine-tune source cars,N_S_WWC_WM_002
+fine-tune source cars,F_S_WWS_WM_407
+fine-tune source cars,N_S_WWS_WM_253
+fine-tune source cars,N_S_WWC_WM_104
+fine-tune source cars,F_S_WWS_WM_565
+fine-tune source cars,F_S_WWS_WM_439
+fine-tune source cars,F_S_WWS_WM_545
+fine-tune source cars,F_S_WWC_WM_257
+fine-tune source cars,N_S_WW_WM_566
+fine-tune source cars,N_S_WWS_WM_180
+fine-tune source cars,N_S_WW_WM_120
+fine-tune source cars,F_S_WWC_WM_144
+fine-tune source cars,F_S_WWS_WM_246
+fine-tune source cars,N_S_WWS_WM_080
+fine-tune source cars,N_S_WWC_WM_315
+fine-tune source cars,F_S_WWC_WM_496
+fine-tune source cars,F_S_WWS_WM_663
+fine-tune source cars,F_S_WWS_WM_116
+fine-tune source cars,N_S_WW_WM_392
+fine-tune source cars,F_S_WWC_WM_202
+fine-tune source cars,N_S_WW_WM_337
+fine-tune source cars,N_S_WWS_WM_039
+fine-tune source cars,F_S_WWS_WM_531
+fine-tune source cars,F_S_WWC_WM_520
+fine-tune source cars,F_S_WWS_WM_366
+fine-tune source cars,F_S_WWC_WM_663
+fine-tune source cars,N_S_WWC_WM_264
+fine-tune source cars,N_S_WW_WM_301
+fine-tune source cars,F_S_WWS_WM_001
+fine-tune source cars,N_S_WWC_WM_003
+fine-tune source cars,N_S_WW_WM_607
+fine-tune source cars,N_S_WW_WM_306
+fine-tune source cars,N_S_WW_WM_440
+fine-tune source cars,F_S_WWS_WM_333
+fine-tune source cars,N_S_WW_WM_221
+fine-tune source cars,N_S_WWC_WM_423
+fine-tune source cars,N_S_WW_WM_197
+fine-tune source cars,F_S_WWS_WM_542
+fine-tune source cars,F_S_WWS_WM_065
+fine-tune source cars,N_S_WW_WM_514
+fine-tune source cars,N_S_WWS_WM_269
+fine-tune source cars,F_S_WWC_WM_054
+fine-tune source cars,F_S_WWC_WM_369
+fine-tune source cars,N_S_WW_WM_629
+fine-tune source cars,F_S_WWC_WM_032
+fine-tune source cars,N_S_WWS_WM_397
+fine-tune source cars,F_S_WWC_WM_618
+fine-tune source cars,F_S_WWS_WM_567
+fine-tune source cars,N_S_WW_WM_159
+fine-tune source cars,F_S_WWC_WM_405
+fine-tune source cars,F_S_WWS_WM_031
+fine-tune source cars,F_S_WWC_WM_163
+fine-tune source cars,N_S_WW_WM_127
+fine-tune source cars,N_S_WW_WM_152
+fine-tune source cars,N_S_WWS_WM_119
+fine-tune source cars,N_S_WWS_WM_266
+fine-tune source cars,N_S_WWS_WM_032
+fine-tune step-selection validation cars,F_S_WWC_WM_040
+fine-tune step-selection validation cars,F_S_WWC_WM_057
+fine-tune step-selection validation cars,F_S_WWC_WM_111
+fine-tune step-selection validation cars,F_S_WWC_WM_146
+fine-tune step-selection validation cars,F_S_WWC_WM_265
+fine-tune step-selection validation cars,F_S_WWC_WM_335
+fine-tune step-selection validation cars,F_S_WWC_WM_412
+fine-tune step-selection validation cars,F_S_WWC_WM_431
+fine-tune step-selection validation cars,F_S_WWC_WM_488
+fine-tune step-selection validation cars,F_S_WWC_WM_554
+fine-tune step-selection validation cars,F_S_WWC_WM_565
+fine-tune step-selection validation cars,F_S_WWS_WM_067
+fine-tune step-selection validation cars,F_S_WWS_WM_172
+fine-tune step-selection validation cars,F_S_WWS_WM_178
+fine-tune step-selection validation cars,F_S_WWS_WM_195
+fine-tune step-selection validation cars,F_S_WWS_WM_262
+fine-tune step-selection validation cars,F_S_WWS_WM_380
+fine-tune step-selection validation cars,F_S_WWS_WM_410
+fine-tune step-selection validation cars,F_S_WWS_WM_449
+fine-tune step-selection validation cars,F_S_WWS_WM_465

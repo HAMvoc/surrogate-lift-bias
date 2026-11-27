@@ -1,0 +1,39 @@
+# configs/data.yaml (starting values, finalised after audit)
+frame:
+  x: streamwise        # car nose at x = 0, tail toward +x
+  y: lateral           # symmetry plane at y = 0
+  z: vertical          # ground at z = 0
+  scale: fixed         # divide by a fixed L_ref, not per car
+  l_ref_m: 5.0         # spec says ~4.6 (median) but a 5.21 m car / 4.6 = 1.13 exceeds the box x<=1.10; with 5.0 the longest = 1.04
+box:                   # L_ref units
+  x: [-0.10, 1.10]
+  y: [-0.30, 0.30]
+  z: [-0.05, 0.40]
+grids:
+  R1: [96, 48, 36]     # X, Y, Z
+  R2: [128, 64, 48]
+  R3: [192, 96, 72]
+sdf:
+  sign: inside_negative
+  tau: 0.05            # clip, L_ref units
+  scale: divide_by_tau
+pool:
+  n_points: 100000
+  sampling: area_weighted_without_replacement
+  seed: 0
+cp:
+  p_kind: kinematic    # p/rho (max p ~ 450 = U^2/2); Cp = (p - p_inf) / (0.5 * u_inf^2), no rho
+  u_inf: 30.0          # m/s, DrivAerNet++ paper arXiv 2406.09624 (operating-conditions table)
+  p_inf: 0.0           # not stated in the paper; checked empirically on 15 cars: max Cp 0.999-1.010, Cd_p/Cd 0.91 +- 0.04 (scripts/data/check_cp_scale.py)
+  rho: 1.184           # kg/m3, only for computing forces; not used for Cp
+source:
+  hf_repo: kasvii/drivaernet_plus   # third-party mirror of DrivAerNet++ (original CC BY-NC 4.0)
+  stl_dir: meshes/3DMeshesSTL
+  vtk_dir: pressure/PressureVTK
+  cd_csv: drag/DrivAerNetPlusPlus_Cd_8k_Updated.csv
+  categories: {F: Fastback, N: Notchback, E: Estateback}
+  params_csv: ../DrivAerNet/ParametricModels/DrivAerNet_ParametricData.csv  # original repo; covers only 4165 cars (no F_D_*)
+
+# Cp label clipping at data-load time (not written to the cache; outside preprocess KEYS so it does not change cfg_hash).
+target:
+  cp_clip: [-10.0, 1.0]
